@@ -1,8 +1,6 @@
 public class Java_05 {
     public static void main(String[] args) {
-        int a = 6;
-        int b = 9;
-        int c = a + b;
-        System.out.println("Sum: " + c);
+        int test = 5 + 9 * 3 - 10 / 2;
+        System.out.println("Sum: " + test);
     }
 }
