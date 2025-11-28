@@ -4,7 +4,7 @@ public class Java_05 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("First number: ");
+        System.out.println("First number: " + Math.sqrt(49));
         int firstnumber = scanner.nextInt();
         System.out.println("Second number: ");
         int secondnumber = scanner.nextInt();
