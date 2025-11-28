@@ -7,12 +7,11 @@ public class Java_07 {
         System.out.println("Long side: ");
         String longSide = scanner.nextLine();
         System.out.println("Short side: ");
-        int shortSide = scanner.nextInt();
+        String shortSide = scanner.nextLine();
 
-        System.out.println("Chu vi hinh chu nhat: " + (2 * (Integer.parseInt(longSide) + shortSide)));
-        System.out.println("Dien tich hinh chu nhat: " + (Integer.parseInt(longSide) * shortSide));
-        System.out.println("Canh nho nhat: " + Math.min(Integer.parseInt(longSide), shortSide));
-
+        System.out.println("Chu vi hinh chu nhat: " + (2 * (Integer.parseInt(longSide) + Integer.parseInt(shortSide))));
+        System.out.println("Dien tich hinh chu nhat: " + (Integer.parseInt(longSide) * Integer.parseInt(shortSide)));
+        System.out.println("Canh nho nhat: " + Math.min(Integer.parseInt(longSide), Integer.parseInt(shortSide)));
         scanner.close();
     }
 }
