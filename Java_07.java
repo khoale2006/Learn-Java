@@ -1,3 +1,5 @@
+
+// Java_07 chuyển đổi tử kiểu String sang int sử dụng Integer.parseInt()
 import java.util.Scanner;
 
 public class Java_07 {
