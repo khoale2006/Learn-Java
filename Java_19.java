@@ -14,13 +14,18 @@ public class Java_19 {
         System.out.println("++ ------------------ ++");
 
         while (true) {
+
             System.out.print("Nhap vao lua chon cua ban (1-4): ");
             int choice = scanner.nextInt();
+
+            // Giải PT bậc nhất
+
             if (choice == 1) {
                 System.out.print("Nhap vao a: ");
                 double a = scanner.nextDouble();
                 System.out.print("Nhap vao b: ");
                 double b = scanner.nextDouble();
+                System.out.printf("GIAI PT BAT NHAT %dx + %d = 0 \n", a, b);
 
                 if (a == 0 && b == 0) {
                     System.out.println("Phuong trinh vo so nghiem.");
@@ -30,6 +35,9 @@ public class Java_19 {
                     double x = -b / a;
                     System.out.println("Phuong trinh co nghiem x = " + x);
                 }
+
+                // Giải PT bật hai
+
             } else if (choice == 2) {
                 System.out.print("Nhap vao a: ");
                 double a = scanner.nextDouble();
@@ -38,6 +46,7 @@ public class Java_19 {
                 System.out.print("Nhap vao c: ");
                 double c = scanner.nextDouble();
                 double delta;
+                System.out.printf("GIAI PT BAC HAI %dx^2 + %dx + %d = 0 \n", a, b, c);
                 if (a == 0) {
                     System.out.println("He so phai khac 0.");
 
@@ -55,6 +64,9 @@ public class Java_19 {
                     }
 
                 }
+
+                // Tính số tiền điện
+
             } else if (choice == 3) {
                 System.out.print("Nhap vao so dien tieu thu (kWh): ");
                 int soDien = scanner.nextInt();

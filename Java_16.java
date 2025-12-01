@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class Java_16 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        System.out.println("Java 16 code here.");
 
         System.out.println("LUA CHON CUA BAN LA : ");
-        System.out.println("Java 16 code here.");
+        Scanner scanner = new Scanner(System.in);
+
         System.out.print("Nhap vao a: ");
         double a = scanner.nextDouble();
         System.out.print("Nhap vao b: ");
@@ -17,7 +18,7 @@ public class Java_16 {
             System.out.println("Phuong trinh vo nghiem.");
         } else {
             double x = -b / a;
-            System.out.println("Phuong trinh co nghiem x = " + x);
+            System.out.printf("Phuong trinh co nghiem = %.3f", x);
         }
 
         scanner.close();
